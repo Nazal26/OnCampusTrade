@@ -128,3 +128,77 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# React Native
+# OS metadata
+*.DS_Store
+*.log
+
+# Xcode
+ios/Pods/
+ios/Podfile.lock
+ios/build/
+ios/*.pbxuser
+ios/*.mode1v3
+ios/*.mode2v3
+ios/*.perspectivev3
+ios/*.xcworkspace
+ios/*/xcuserdata/
+ios/*/*.xcodeproj
+ios/*/project.xcworkspace
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/*.iml
+android/*.keystore
+android/*.jar
+
+# React Native packager
+*.packager
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+
+# Buck
+buck-out/
+\.buckconfig.local
+
+# Electron
+# See https://www.electron.build/configuration/contents#extra-resources
+release/
+dist/
+out/
+
+# macOS
+*.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Ethereum (Solidity)
+*.solcover.js
+coverage/
+
+# Additional configurations
+# MongoDB
+*.lock
+*.shm
+*.wal
+
+# General
+.DS_Store
+Thumbs.db
+
+# Specific IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
